@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Black Jack Game</title>
+    </head>
+    <body>
+        <div>
+            <h1>Welcome to Holy Pond Bets</h1>
+            <h3 id="arguement">Gamble Responsibly</h3>
+        </div>
+        <div class="player">
+            <input type="text" id="name" placeholder="What is your name">
+            <input type="number" id="age" placeholder="How old are you">
+            <input type="number" id="chips" placeholder="Chip Amount ($)">
+            <button id="save" onclick="blurFunction()">Save</button>
+        </div>
+        <div class="main">
+            <h1>BlacJack Game Board</h1>
+            <h2 id="message-el"> Draw a card to start playing</h2>
+            <h2 id="cards-at-hand">Cards:</h2>
+            <h2 id="card-sum">Sum:</h2>
+            <button id="new-card" onclick="newCard()">NEW CARD</button>
+            <button id="start-game" onclick="playGame()">PLAY GAME</button>
+            <h3 id="game-outcome"></h3>
+            <p id="player-name"></p>
+            <p id="age-P"></p>
+            <p id="chips-P"></p>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
